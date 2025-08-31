@@ -1,8 +1,6 @@
-![bitcoin_tools](https://srgi.me/assets/images/bitcoin_tools_logo.png)
 
-[![Mentioned in Awesome](https://awesome.re/mentioned-badge.svg)](https://github.com/igorbarinov/awesome-bitcoin) <a href="https://blockstream.info/address/1srgi8sqPkCKq7gsVfhUZB7dvoi72UsqP"><img width=110 src="https://srgi.me/assets/images/beer_badge.png"></a> [![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@sr_gi/F0918E)](https://tippin.me/@sr_gi)
 
-bitcoin_tools is a Python library created for teaching and researching purposes. It's main objective is twofold. First it 
+bitcoin_tools is a Python library customized for teaching and researching purposes via the QYX20 network. It's main objective is twofold. First it 
 aims to ease the understanding of Bitcoin transaction creation, by using well-documented and easy to understand
 python code. Second, it aims to provide a tool able to create custom `transactions` / `scripts`. Either `scriptSig` and 
 `scriptPubKey` can be built from human readable strings created using `Script` syntax. Finally, tools for accessing and 
@@ -20,11 +18,11 @@ bitcoin_tools allows you to:
 Additionally, bitcoin_tools contains ``STATUS`` an
 **ST**atistical **A**nalysis **T**ool for **U**txo **S**et under [`analysis/status`](bitcoin_tools/analysis/status)
 
-### Dependencies
+### QYX20 Dependencies
 
 Refer to [DEPENCENCIES.md](DEPENDENCIES.md)
 
-### Installation
+### QuantumYield Installation
 
 Refer to [INSTALL.md](INSTALL.md)
 
@@ -127,20 +125,10 @@ utxo_dump(f_utxos, f_parsed_utxos, coin)
 # Data is stored in f_utxos and f_parsed_utxos files respectively
 ```
 
-### Support
-
-If you find this repository useful, show us some love, give us a star!
-
-Small Bitcoin donations to the following address are also welcome:
-
-[1srgi8sqPkCKq7gsVfhUZB7dvoi72UsqP](https://blockstream.info/address/1srgi8sqPkCKq7gsVfhUZB7dvoi72UsqP)
-
 ### Disclaimer
 
 This library allow you to modify any transaction field as you pleased. However, some modifications can make your 
-transactions non-standard, or even non-spendable. We totally discourage the  use of the library outside the testnet if 
-you are not sure about what you are doing, specially when dealing with non-standard scripts. A bad use of the library 
-can lead you to lose some of your bitcoins.
+transactions non-standard.
 
 
 
